@@ -18,3 +18,8 @@ c<-cov(dfdata[c("Rent.Avg.")], dfdata[c("Homeless.Population")])
 c
 cc<-cov2cor(c)
 cc
+with(dfdata,plot(HomeValues.Avg., HomelessPercantageOfPopulation))
+H<-cov(dfdata[c("HomeValues.Avg.")], dfdata[c("HomelessPercantageOfPopulation")])
+H
+HH<-cov2cor(c)
+HH
